@@ -1,0 +1,17 @@
+{
+  "name": "previewall",
+  "version": "0.8.0",
+  "description": "Output Links for All Registered Preview Site",
+  "main": "index.php",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "msndo",
+  "license": "MIT",
+  "devDependencies": {
+    "del": "^2.2.1",
+    "gulp": "^3.9.1",
+    "gulp-include": "^2.3.0",
+    "gulp-run-sequence": "^0.3.2"
+  }
+}

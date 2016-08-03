@@ -1,0 +1,33 @@
+@charset "utf-8";
+
+.clr { display: table; }
+.clr:after { clear: both; }
+a,
+a:visited { color: #447; }
+ul { margin: 0; padding: 0; list-style: none; }
+li { padding: 0; }
+
+body { font-size: 65%; }
+#title-page { font-size: 400%; }
+#contents { width: 100%; }
+.list-data { margin: 30px 0 0; width: 100%; border-collapse: collapse; }
+.list-data .cell-num { text-align: right; white-space: nowrap; }
+.list-data th,
+.list-data td { border: 1px solid #ccc; padding: 7px 10px; word-break: break-all; white-space: normal; word-wrap: normal; }
+.list-data th { font-weight: bold; background: #f6f6f2; text-align: left; font-size: 117¥%; }
+.list-data th a { text-decoration: none; }
+.list-data .cell-title-row { width: 300px; }
+
+.list-data .current-selected th { background: #ddd; }
+.list-data .current-selected td { background: #eee; }
+
+.menu-drawal .ctrl-drawal { position: absolute;  left: -50px; top: 10px; }
+.menu-drawal .ctrl-drawal .content-ctrl { display: block; max-width: 30px; min-height: 80px; padding: 10px; background: #888; color: #fff; border-radius: 5px 0 0 5px; text-decoration: none; }
+.menu-drawal[data-openclose=open] .content-closed,
+.menu-drawal[data-openclose=closed] .content-open { display: none; }
+
+#section-manualinput-param { position: fixed; right: 0; top: 100px; width: 40%; padding: 10px; background: #fff; border: solid #888; border-width: 3px 0 3px 3px; border-radius: 8px 0 0 8px; }
+#section-manualinput-param #section-dd-url { padding: 10px; border: dashed 5px #ccc; font-size: 200%;}
+#section-manualinput-param #section-dd-url.dropping { background: #dfd; }
+#section-manualinput-param #section-input-url { margin-top: 30px }
+#section-manualinput-param #section-input-url #ctrl-input-url { width: calc(100% - 45px); border: 1px solid #ccc; border-radius: 8px; font-size: 300%; padding: 30px 20px; }
