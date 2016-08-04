@@ -28,4 +28,4 @@ gulp.task('clean', function(cb) {
 
 gulp.task('default', function() {
 	runSequence(TASK_BUILD, TASK_DIST);
-})
+});
